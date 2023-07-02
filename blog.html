@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="links-de-navegacion" id="linksscript">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+               <UL> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </UL>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Blog</h1>
+    </section>
+
+<!-- blog -->
+
+    <section class="blog-content">
+      <div class="blog-left"><img src="images/certificate.jpg">
+       <h2>El futuro del audio y la inteligencia artificial</h2> 
+       <p>En la constante evolución de la tecnología, la inteligencia artificial (IA) ha dejado su huella en numerosos campos, y la industria del audio no es una excepción. Como ingeniero en audio con años de experiencia, he presenciado de primera mano cómo la IA ha revolucionado la forma en que se crea, procesa y reproduce el sonido. En este artículo, exploraremos el emocionante mundo de la convergencia entre el audio y la inteligencia artificial, y cómo esta simbiosis está dando forma al futuro del audio profesional.</p>
+       <br>
+       <p>Mejora de la Calidad del Sonido:
+        La inteligencia artificial ha permitido avances significativos en la calidad del sonido. Mediante algoritmos sofisticados, es posible eliminar ruidos no deseados, mejorar la claridad y realzar las frecuencias esenciales de una grabación. Esto es especialmente útil en la restauración de grabaciones antiguas o en la eliminación de ruidos de fondo en grabaciones en vivo. La IA también ha hecho posible la creación de sistemas de audio adaptativos, capaces de ajustarse automáticamente a las características acústicas de un entorno en tiempo real, brindando una experiencia auditiva óptima.</p>
+        <br>
+        <p>
+          Creación de Música Generativa:
+          La IA ha incursionado en el terreno creativo, permitiendo la generación de música de forma autónoma. Mediante el entrenamiento de redes neuronales con vastas cantidades de música existente, la inteligencia artificial puede componer nuevas piezas musicales, explorando combinaciones y estructuras que podrían no haber sido concebidas por compositores humanos. Este enfoque creativo basado en la IA ha abierto nuevas puertas para la experimentación musical y ha generado composiciones innovadoras y sorprendentes.
+        </p>
+        <br>
+        <p>Mezcla y Masterización Automatizadas:
+           El proceso de mezcla y masterización, que solía ser laborioso y requiere habilidades técnicas especializadas, ha sido simplificado y agilizado gracias a la inteligencia artificial. Algoritmos de IA pueden analizar y procesar de manera automática los elementos de una mezcla, optimizando el balance de los instrumentos, la ecualización y la dinámica, y adaptándose a las preferencias y estilos específicos del ingeniero de audio. Esto no solo ahorra tiempo, sino que también brinda resultados más coherentes y profesionales.
+        </p>
+       
+      </div>
+    </section>
+
+
+<!-- Footer  -->
+<section class="footer">
+  <h4>Santa Rosalía 25</h4>
+  <p>2023 Todos los derechos reservados</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+
+<!-- Pequeno Javascript para el menu en movil -->
+
+    <script>
+
+        var linksscript = document.getElementById("linksscript");
+
+        function showMenu () {
+            linksscript.style.right = "0";
+        }
+
+        function hideMenu () {
+            linksscript.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

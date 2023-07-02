@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosalia 25</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="links-de-navegacion" id="linksscript">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+               <UL> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </UL>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="texto-en-caja">
+            <h1>Tu proyecto inicia aquí</h1>
+            <p>Más que un estudio, tus aliados en producción musical</p>
+            <a href="contacto.html" class="boton-cotiza">Cotiza en 1 minuto</a>
+        </div>
+    </section>
+
+
+<!-- EQUIPO  -->
+
+<section class="equipo">
+    <h1>Equipo de clase mundial</h1>
+    <p>Microfonía, preamplificadores y acústica profesional para tu proyecto</p>
+  
+    <div class="fierros">
+      <div class="fierros-col">
+        <div class="image-container">
+          <img src="images/micros.png">
+          <div class="image-overlay">
+            <h3>SHURE / AKG / Beyerdynamic </h3>
+          </div>
+        </div>
+      </div>
+  
+      <div class="fierros-col">
+        <div class="image-container">
+          <img src="images/analog.png">
+          <div class="image-overlay">
+            <h3>Sonido analógicamente puro</h3>
+          </div>
+        </div>
+      </div>
+  
+      <div class="fierros-col">
+        <div class="image-container">
+          <img src="images/panel.png">
+          <div class="image-overlay">
+            <h3>Aislamiento y acondicionamiento acústico</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Cuarta seccion -->
+
+<section class="label">
+  <h1>Discos terminados</h1>
+  <p>Conoce nuestros mejores proyectos</p>
+
+  <div class="row">
+    <div class="label-col">
+      <img src="images/disco1.png">
+      <h3>The New Divines</h3>
+      <p>The Last Return EP</p>
+    </div>
+
+    <div class="label-col">
+      <img src="images/disco2.png">
+      <h3>David Burgos Band</h3>
+      <p>Hacia el oriente próximo</p>
+    </div>
+
+    <div class="label-col">
+      <img src="images/disco3.png">
+      <h3>XYX</h3>
+      <p>Kaá</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Quinta seccion -->
+
+<section class="testimonios">
+  <h1>Testimonios</h1>
+  <p>¿Qué opinan nuestros clientes de nosotros?</p>
+
+  <div class="row">
+    <div class="testimonios-col">
+      <img src="images/user1.jpg">
+      <div>
+        <p>Mezcla, grabación y masterización profesional en un solo lugar</p>
+        <h3>Juan Lombardo</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+
+      </div>
+    </div>
+
+    <div class="testimonios-col">
+      <img src="images/user2.jpg">
+      <div>
+        <p>La calidad del estudio es impresionante</p>
+        <h3>Cristina Larios</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- C2a -->
+
+<section class="cotiza">
+  <h1>¡HABLEMOS! Cuéntanos más sobre tu proyecto</h1>
+  <a href="#" class="boton-cotiza">Quiero cotizar</a>
+</section>
+
+  
+
+
+<!-- Footer  -->
+<section class="footer">
+  <h4>Santa Rosalía 25</h4>
+  <p>2023 Todos los derechos reservados</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+
+<!-- Pequeno Javascript para el menu en movil -->
+
+    <script>
+
+        var linksscript = document.getElementById("linksscript");
+
+        function showMenu () {
+            linksscript.style.right = "0";
+        }
+
+        function hideMenu () {
+            linksscript.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

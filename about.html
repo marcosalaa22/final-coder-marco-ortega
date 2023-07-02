@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="links-de-navegacion" id="linksscript">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+               <UL> 
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </UL>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Nosotros</h1>
+    </section>
+
+<!-- ABOUT US contenido -->
+
+    <section class="sobre-nosotros">
+      <div class="row">
+        <div class="nosotros-col">
+          <h1>Somos el estudio mejor acondicionado de México</h1>
+          <p> Creemos que la excelencia de una producción comienza con el espacio: si no tienes una buena acústica no importa el tipo de micrófonos
+            o equipo caro que utilices, todo saldrá mal. Grabamos y mezclamos con estándares de clase mundial en cada punto de contacto de tu producción
+            El diseño adecuado de la acústica del estudio garantiza una captura precisa de las fuentes sonoras y minimiza las interferencias no deseadas, 
+            lo que resulta en grabaciones claras y profesionales. Al controlar las reflexiones, la reverberación y la dispersión del sonido, se crea un 
+            entorno en el que cada detalle musical puede ser capturado con fidelidad. Esto permite a los productores y artistas tomar decisiones informadas 
+            durante el proceso de mezcla y masterización, logrando un equilibrio perfecto entre los instrumentos y las voces. Además, un estudio acústicamente 
+            acondicionado mejora la eficiencia del trabajo, ya que se reduce la necesidad de correcciones posteriores y se minimizan los problemas técnicos. 
+          </p>
+          <a href="contacto.html" class="boton-negativo">Cotiza en 1 minuto</a>
+        </div>
+
+        <div class="nosotros-col">
+          <img src="images/about.jpg">
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+<!-- Footer  -->
+<section class="footer">
+  <h4>Santa Rosalía 25</h4>
+  <p>2023 Todos los derechos reservados</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+
+<!-- Pequeno Javascript para el menu en movil -->
+
+    <script>
+
+        var linksscript = document.getElementById("linksscript");
+
+        function showMenu () {
+            linksscript.style.right = "0";
+        }
+
+        function hideMenu () {
+            linksscript.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
